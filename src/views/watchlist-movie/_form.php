@@ -1,6 +1,6 @@
 <?php
 
-use frontend\modules\watchlist\models\Watchlist;
+use xedeer\watchlist\models\Watchlist;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;

@@ -3,7 +3,7 @@
 namespace xedeer\watchlist\models;
 
 use Yii;
-use frontend\modules\movie\models\Movie;
+use yagiztr\movie\models\Movie;
 
 /**
  * This is the model class for table "watchlist_movie".
