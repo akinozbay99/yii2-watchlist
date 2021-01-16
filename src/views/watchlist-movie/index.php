@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use xedeer\movie\models\Movie;
+use yagiztr\movie\models\Movie;
 use yii\helpers\Url;
 /* @var $this yii\web\View */
 /* @var $searchModel frontend\modules\watchlist\models\WatchlistMovieSearch */
