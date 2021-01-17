@@ -4,6 +4,7 @@ namespace xedeer\watchlist\controllers;
 
 use Yii;
 use xedeer\watchlist\models\Watchlist;
+use xedeer\watchlist\models\WatchlistMovie;
 use xedeer\watchlist\models\WatchlistSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -104,6 +105,7 @@ class WatchlistController extends Controller
      */
     public function actionDelete($id)
     {
+        WatchlistMovie::deleteAll("watchlist_id=$id");
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
